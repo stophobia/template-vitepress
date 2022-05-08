@@ -1,0 +1,30 @@
+{
+  "name": "template-vitepress",
+  "version": "1.0.0",
+  "description": "Vitepress template with Typescript",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stophobia/template-vitepress.git"
+  },
+  "author": "stophobia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stophobia/template-vitepress/issues"
+  },
+  "homepage": "https://github.com/stophobia/template-vitepress#readme",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "pug": "^3.0.2",
+    "pug-plain-loader": "^1.1.0",
+    "sass": "^1.51.0",
+    "vitepress": "^0.22.4"
+  }
+}
